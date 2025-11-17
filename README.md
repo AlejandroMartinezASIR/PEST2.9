@@ -6,16 +6,16 @@ Este repositorio corresponde a un proyecto desarrollado íntegramente en PHP y o
 
 A continuación se detalla el contenido de cada directorio y archivo incluido en el repositorio, junto con su función específica dentro del proyecto.
 
-PEST2.9/
-│
-├── src/
-├── tests/
-├── vendor/
-│
-├── composer.json
-├── composer.lock
-├── phpunit.xml
-└── README.md
+PEST2.9/\
+│\
+├── src/\
+├── tests/\
+├── vendor/\
+│\
+├── composer.json\
+├── composer.lock\
+├── phpunit.xml\
+└── README.md\
 
 
 
