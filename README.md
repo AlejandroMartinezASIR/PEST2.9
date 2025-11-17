@@ -15,7 +15,7 @@ PEST2.9/\
 ├── composer.json\
 ├── composer.lock\
 ├── phpunit.xml\
-└── README.md\
+└── README.md
 
 ## `src/` — Código Fuente Principal
 
