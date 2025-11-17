@@ -32,7 +32,7 @@ Su contenido es cargado automáticamente mediante *autoloading* gracias a Compos
 
 ## `tests/` — Pruebas Automatizadas (PHPUnit)
 
-Este directorio contiene todos los test cases del proyecto. Aquí se ubican archivos PHP con pruebas que hemos diseñado para validar:
+Este directorio contiene todos los test del proyecto. Aquí se encuentran archivos PHP con pruebas que hemos diseñado para validar:
 
 - El comportamiento de las clases de `src/`
 - La integridad funcional del proyecto
@@ -50,7 +50,7 @@ Cada test está estructurado en:
 
 Esta carpeta es generada automáticamente tras ejecutar:
 
-```
+```bash 
 composer install
 ```
 
@@ -95,9 +95,7 @@ Ejemplo de información habitual en él:
 Este archivo registra las versiones exactas de todas las dependencias instaladas.  
 Su función es garantizar que cualquier persona que descargue el proyecto instale **exactamente las mismas versiones**, evitando incompatibilidades.
 
-**No debe editarse manualmente.**
-
----
+Como recomendación **no debe editarse manualmente.**
 
 ## `phpunit.xml` — Configuración del Framework de Pruebas
 
