@@ -1,0 +1,7 @@
+{
+    "source":{"directories":["src"]},
+    "timeout":10,
+    "logs":{"text":"infection.log","html":"infection.html"},
+    "mutators":{"@default":true},
+    "testFramework":"pest"
+}
