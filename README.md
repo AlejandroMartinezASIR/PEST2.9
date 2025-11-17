@@ -17,12 +17,6 @@ PEST2.9/\
 ├── phpunit.xml\
 └── README.md\
 
-
-
-
-
----
-
 ## `src/` — Código Fuente Principal
 
 Este directorio contiene todos los archivos que conforman la lógica principal del proyecto.  
@@ -154,23 +148,5 @@ El proyecto utiliza PHPUnit instalado mediante Composer.
 Para ejecutarlas:
 
 ```bash
-./vendor/bin/phpunit
+composer test
 ``` 
-
-### En Windows:
-
-```bash
-vendor\bin\phpunit
-```
-
-### Ejecutar una prueba específica
-
-```bash
-./vendor/bin/phpunit tests/NombreDelTest.php
-```
-
-### Filtrar por un método concreto
-
-```bash
-./vendor/bin/phpunit --filter nombreMetodo
-```
